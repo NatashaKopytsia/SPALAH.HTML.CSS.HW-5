@@ -1,0 +1,108 @@
+html {
+    background: #F5F5F5;
+    font-family: sans-serif;
+}
+
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.left_col{
+}
+
+.bunner {
+	width: 180px;
+	float: left;
+	background-color: #2d3541;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.search{
+	width: 180px;
+	padding: 30px 10px 30px 10px;
+	background-color: #3e4650;
+	vertical-align: bottom;
+	border-bottom: 1px solid  #2d3541;
+}
+
+.images{
+	background-repeat: no-repeat;
+}
+
+.search a{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.filter{
+	width: 180px;
+	padding: 30px 10px 30px 10px;
+	vertical-align: bottom;
+	background-color: #3e4650;
+
+
+}
+
+.filter a{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.task {
+	width: 180px;
+	padding: 30px 10px 30px 10px;
+	vertical-align: bottom;
+	margin: 0px;		
+	border-left: 5px solid #00a0e1;
+	background-color: #FFFFFF;
+}
+
+.task a {
+	text-decoration: none;
+	color: #00a0e1;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.staticks {
+	width: 180px;
+	padding: 30px 10px 30px 10px;
+	background-color: #3e4650;
+	vertical-align: bottom;
+	border-bottom: 1px solid  #2d3541;
+}
+
+.staticks a {
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+.options{
+	width: 180px;
+	padding: 30px 10px 30px 10px;
+	background-color: #3e4650;
+	vertical-align: bottom;
+	border-bottom: 1px solid  #2d3541;
+}
+
+.options a {
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+
+
