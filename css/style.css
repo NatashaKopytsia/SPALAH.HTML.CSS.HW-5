@@ -11,7 +11,7 @@ html {
 }
 
 
-.wrapper_left{
+.wrapper_left {
 	height: 100%;
 	width: 10%;
 	padding-right: 68px;
@@ -19,21 +19,67 @@ html {
 	position: fixed;
 }
 
-.wrapper_right{
-	position: fixed;
-
-	margin-top: 60px;
-	margin-left: 110px;
+.header {
+	margin-top: 10px;
+	margin-left: 200px;
 	float: right;
-	width: 75%;
-	
 	text-align: center;
-	
-	border: 40px solid #e7ebeb;
-	paddin
+	border-top: 30px  solid #e7ebeb;
+	border-left: 40px solid #e7ebeb;
+	border-bottom: 1000px solid #e7ebeb;
+	border-right: 40px solid #e7ebeb;
+}
 
-	position: fixed;
 
+h2 {
+	padding: 0px 320px 0px 320px;
+}
+
+.add_tasks a {
+	text-decoration: none;
+	background-color: #009fe4;
+	color: #FFFFFF;
+	padding: 15px 45px 15px 45px;
+	width: 220px;
+	margin: 0 auto;
+	border-radius: 5px;
+
+ }
+
+ .add_tasks {
+ 	border-top: 20px solid #f7f8f8;
+	border-bottom: 20px solid #f7f8f8;
+	border-left: 350px solid #f7f8f8;
+	border-right: 350px solid #f7f8f8;
+	margin-top: 50px;
+ }
+
+.text { 
+	margin: 50px;
+	line-height: 2em;
+
+}
+
+.text a {
+	text-decoration: none;
+	color: #0190de;
+}
+
+.images_like {
+	margin: 50px;
+}
+
+.like {
+	background-color: #f7f8f8;
+	padding-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	border: 1px solid #e8ecec;
+}
+
+.select {
+	font-weight: 600;
 }
 
 .bunner {
@@ -44,33 +90,35 @@ html {
 	margin-bottom: 30px;
 }
 
-.search{
+.search {
 	width: 180px;
 	padding: 30px 10px 30px 10px;
+	margin: 0;
 	background-color: #3e4650;
-	vertical-align: bottom;
 	border-bottom: 1px solid  #2d3541;
 }
 
-.images{
+.images {
 	background-repeat: no-repeat;
+	vertical-align: center;
+
 }
 
-.search a{
+.search a {
 	text-decoration: none;
 	color: #ffffff;
 	margin: 0 auto;
 	padding: 10px;
 }
 
-.filter{
+.filter {
 	width: 180px;
 	padding: 30px 10px 30px 10px;
 	vertical-align: bottom;
 	background-color: #3e4650;
 }
 
-.filter a{
+.filter a {
 	text-decoration: none;
 	color: #ffffff;
 	margin: 0 auto;
@@ -78,7 +126,7 @@ html {
 }
 
 .task {
-	width: 180px;
+	width: 178px;
 	padding: 30px 10px 30px 10px;
 	vertical-align: bottom;
 	margin: 0px;		
@@ -109,12 +157,12 @@ html {
 }
 
 
-.options{
+.options {
 	width: 180px;
 	padding: 30px 10px 30px 10px;
 	background-color: #3e4650;
 	vertical-align: bottom;
-	border-bottom: 1px solid  #2d3541;
+	border-bottom: 1px solid #2d3541;
 }
 
 .options a {
@@ -125,13 +173,34 @@ html {
 }
 
 
-form{
+form {
 	float: right;
-	margin: 10px;
+	margin: 10px 30px 0px 10px;
 	border: 2px solid #e7ebeb;
  	padding: 2px 2px 2px 30px; 
-	background: url(../images/se.png) no-repeat #e7ebeb;
-	vertical-align: bottom;
-
+	background: url(../images/se.png) no-repeat center left #e7ebeb;
+	
 }
+
+.submit-btn {
+	border: none;
+	background-color: #e7ebeb;
+}
+
+.add_text {
+	border: none;
+	background-color: #FFFFFF;
+}
+
+#user{
+	height: 30px;
+}
+input[type="text"]:focus { 
+	outline: none;
+}
+
+
+
+
+
 
