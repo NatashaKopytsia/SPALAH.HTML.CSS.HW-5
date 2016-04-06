@@ -24,7 +24,7 @@ html {
 	margin-left: 200px;
 	float: right;
 	text-align: center;
-	border-top: 30px  solid #e7ebeb;
+	border-top: 30px solid #e7ebeb;
 	border-left: 40px solid #e7ebeb;
 	border-bottom: 1000px solid #e7ebeb;
 	border-right: 40px solid #e7ebeb;
@@ -46,7 +46,7 @@ h2 {
 
  }
 
- .add_tasks {
+.add_tasks {
  	border-top: 20px solid #f7f8f8;
 	border-bottom: 20px solid #f7f8f8;
 	border-left: 350px solid #f7f8f8;
@@ -55,7 +55,6 @@ h2 {
  }
 
 .text { 
-	margin: 50px;
 	line-height: 2em;
 
 }
@@ -93,15 +92,12 @@ h2 {
 .search {
 	width: 180px;
 	padding: 30px 10px 30px 10px;
-	margin: 0;
 	background-color: #3e4650;
 	border-bottom: 1px solid  #2d3541;
 }
 
 .images {
 	background-repeat: no-repeat;
-	vertical-align: center;
-
 }
 
 .search a {
